@@ -6,7 +6,8 @@
   "version": "0.0.1",
   "description": "Library of accessible react components ",
   "scripts": {
-    "rollup": "rollup -c"
+    "rollup": "rollup -c",
+    "test": "exit 0"
   },
   "author": "Svetlana Zayats",
   "license": "ISC",
