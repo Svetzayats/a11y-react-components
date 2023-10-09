@@ -1,0 +1,28 @@
+{
+  "name": "a11y-react-components",
+  "version": "0.0.1",
+  "description": "Library of accessible react components ",
+  "scripts": {
+    "rollup": "rollup -c"
+  },
+  "author": "Svetlana Zayats",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.5",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/react": "^18.2.25",
+    "eslint": "^8.51.0",
+    "react": "^18.2.0",
+    "rollup": "^3.29.4",
+    "rollup-plugin-dts": "^6.1.0",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "module"
+}

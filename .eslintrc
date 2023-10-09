@@ -1,0 +1,72 @@
+{
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    },
+    "extends": [
+      "react-app"
+    ],
+    "rules": {
+      "react/jsx-first-prop-new-line": [1, "multiline"],
+      "react/jsx-max-props-per-line": [1, { "maximum": { "single": 5, "multi": 1 } }],
+      "react/jsx-indent-props": [1, 2],
+      "react/jsx-closing-bracket-location": [1, "tag-aligned"],
+      "no-console": ["warn", {
+        "allow": ["warn", "error", "info"]
+      }],
+      "indent": ["warn", 2, { "SwitchCase": 1 }],
+      "semi": "warn",
+      "prefer-template": "warn",
+      "anchor-is-valid": "off",
+      "comma-spacing": "warn",
+      "block-spacing": "warn",
+      "keyword-spacing": "warn",
+      "key-spacing": "warn",
+      "space-infix-ops": "warn",
+      "object-shorthand": ["error", "properties"],
+      "quotes": ["error", "single"],
+      "jsx-quotes": ["error", "prefer-single"],
+      "react/sort-comp": ["error"],
+      "object-curly-spacing": ["error", "always"],
+      "brace-style": ["error", "1tbs", {
+        "allowSingleLine": false
+      }],
+      "comma-dangle": ["error", {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "never"
+      }],
+      "react/jsx-tag-spacing": ["error", {
+        "closingSlash": "never",
+        "beforeSelfClosing": "always",
+        "afterOpening": "never",
+        "beforeClosing": "never"
+      }],
+      "@typescript-eslint/member-delimiter-style": ["warn"],
+      "react-hooks/exhaustive-deps":  "off",
+      "max-len": ["warn", 200],
+      "no-redeclare": "off",
+      "@typescript-eslint/no-redeclare": "error",
+      "no-multi-spaces": "warn",
+      "react/button-has-type": 1,
+      "react/function-component-definition": [1, { "namedComponents": "function-declaration" }],
+      "react/jsx-boolean-value": 1,
+      "react/jsx-key": 1,
+      "react/jsx-no-useless-fragment": 1,
+      "react/no-array-index-key": 1,
+      "react/no-direct-mutation-state": 1,
+      "react/self-closing-comp": 1,
+      "no-tabs": "warn",
+      "no-trailing-spaces": "warn",
+      "no-whitespace-before-property": "warn",
+      "array-callback-return": "warn",
+      "no-constant-condition": "warn",
+      "no-dupe-args":"warn",
+      "no-duplicate-imports":"warn",
+      "no-dupe-keys":"warn"
+    }
+  }
+  

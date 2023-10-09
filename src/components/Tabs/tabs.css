@@ -1,0 +1,15 @@
+.a11y-tabs {
+    & .a11y-tablist {
+        display: flex;
+    }
+
+    &[aria-orientation='vertical'] {
+        .a11y-tablist {
+            flex-direction: column;
+        }
+    }
+}
+
+.a11y-tabpanel.hidden {
+    display: none;
+}
