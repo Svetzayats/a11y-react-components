@@ -2,6 +2,7 @@ import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import typescript from "@rollup/plugin-typescript";
 import dts from "rollup-plugin-dts";
+import css from "rollup-plugin-import-css";
 
 import packageJson from "./package.json" assert { type: "json" };
 
@@ -24,6 +25,7 @@ export default [
             resolve(),
             commonjs(),
             typescript({ tsconfig: "./tsconfig.json" }),
+            css(),
         ],
         external: ["react", "react-dom"],
     },
@@ -31,5 +33,6 @@ export default [
         input: "dist/esm/types/index.d.ts",
         output: [{ file: "dist/index.d.ts", format: "esm" }],
         plugins: [dts()],
+        external: [/\.css$/u]
     },
 ];

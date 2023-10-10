@@ -1,5 +1,5 @@
 import { useAccessibleTabsContext } from './context';
-import './tabs.scss';
+import './tabs.css';
 
 import React, { ReactElement, cloneElement } from 'react';
 

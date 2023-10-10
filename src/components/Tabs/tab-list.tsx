@@ -1,7 +1,7 @@
 
 import { LinkedListFromData } from 'structures/LinkedList';
 import { useAccessibleTabsContext } from './context';
-import './tabs.scss';
+import './tabs.css';
 
 import React, { ReactElement, useEffect, useState } from 'react';
 

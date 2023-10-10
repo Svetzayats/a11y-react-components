@@ -1,5 +1,5 @@
 import { AccessibleTabsProvider } from './context';
-import './tabs.scss';
+import './tabs.css';
 
 import React, { ReactElement, useEffect, useRef } from 'react';
 
